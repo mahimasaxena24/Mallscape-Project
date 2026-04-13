@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-obsidian font-sans text-white antialiased;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(214, 185, 140, 0.32);
+  color: #ffffff;
+}
+
+.page-shell {
+  background:
+    radial-gradient(circle at top, rgba(147, 212, 255, 0.1), transparent 18%),
+    radial-gradient(circle at 15% 30%, rgba(214, 185, 140, 0.16), transparent 24%),
+    linear-gradient(180deg, #040507 0%, #05070a 36%, #080b10 100%);
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.38), transparent 90%);
+}
+
+.section-title {
+  @apply text-3xl font-semibold tracking-tight text-white md:text-5xl;
+}
+
+.section-eyebrow {
+  @apply mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-white/70;
+}
+
+.glass-card {
+  @apply rounded-[28px] border border-white/10 bg-white/[0.05] backdrop-blur-xl;
+}
+
+.media-frame {
+  @apply overflow-hidden rounded-[28px] border border-white/10 bg-slateglass shadow-luxe;
+}
