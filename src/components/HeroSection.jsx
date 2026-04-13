@@ -30,10 +30,7 @@ export function HeroSection({ metrics }) {
             className="max-w-4xl"
           >
             <BrandMark />
-            <div className="section-eyebrow border-white/20 bg-black/20 text-white/75">
-              MallScape Experience
-            </div>
-            <h1 className="max-w-5xl text-5xl font-semibold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-[6.5rem]">
+            <h1 className="mt-5 max-w-5xl text-5xl font-semibold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-[6.5rem]">
               MallScape
             </h1>
             <p className="mt-5 max-w-3xl font-display text-2xl italic leading-tight text-pearl md:text-4xl">

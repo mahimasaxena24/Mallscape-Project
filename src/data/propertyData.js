@@ -121,7 +121,7 @@ export const attractions = [
     copy:
       'A world-famous anchor that turns every visit into a memory and every brand presence into a spectacle.',
     media:
-      'https://images.unsplash.com/photo-1544551763-7ef420f7b83e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.pexels.com/photos/37530/divers-scuba-divers-divers-underwater-37530.jpeg?auto=compress&cs=tinysrgb&w=1200',
   },
   {
     title: 'Olympic Ice Rink',

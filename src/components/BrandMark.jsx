@@ -34,9 +34,6 @@ export function BrandMark({ compact = false }) {
       </div>
 
       <div className="min-w-0">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.35em] text-white/45">
-          Premium Sales Deck
-        </div>
         <div className={`${compact ? 'text-base' : 'text-lg'} font-semibold tracking-[0.18em] text-white`}>
           MallScape
         </div>
